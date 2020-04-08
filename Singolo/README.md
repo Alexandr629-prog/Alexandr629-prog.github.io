@@ -1,1 +1,1 @@
-# Alexandr629-prog.github.io/Singolo/
+# Alexandr629-prog.github.io
