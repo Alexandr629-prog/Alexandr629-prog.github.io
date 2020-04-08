@@ -78,9 +78,32 @@ body{
 
 .star{color: #eb6a63;}
 
-header{
+.header{
     background-color:#2d303a;
     height: 95px;
+}
+.header_fixed{
+    position: fixed;
+    top: 0px;
+    left: 230px;
+    padding:  0;
+    /*margin-top: -50px;*/
+    width: 1020px;
+    animation: showElement;
+    animation-duration: 0.5s;
+    z-index: 1;
+}
+
+@keyframes showElement{
+    0% {
+        opacity: 0;
+        top: -70px;
+    }
+    
+    100% {
+        opacity: 1;
+        top: 0;
+    }
 }
 .options{
 display: flex;
@@ -126,51 +149,107 @@ li span.option2{
     }
 .Slider
 {
+-webkit-margin-before-collapse: discard;
 background-color: #f06c64;
 width: 1020px;
 height: 599px;
-
 }
-
+.Newslider{
+-webkit-margin-before-collapse: discard;
+background-color: blue;
+width: 1020px;
+height: 599px;
+}
+@keyframes left{
+    from
+    {
+        left: 0;
+    }
+    
+    to{
+        left: -20%;
+    }
+}
+.to_left{animation: left;
+    animation-duration: 5s;
+    z-index: 1;
+}
+.passiv{
+    display: none;
+}
 .iphone1{
-position: relative;
-left: 114px;
-top: 52px;
-box-shadow: 19px 20px 3px 4px #ce5d56
+position: absolute;
+left: 23%;
+top: 21%;
+box-shadow: 19px 20px 3px 4px #ce5d56;
 }
 .vert
-{
-position: relative;
-right: 648px;
-top: -9px;
+{position: absolute;
+left: 24%;
+top: 30%;
 }
 .iphone2
 {
-position: relative;
+position: absolute;
+left: 52.5%;
+top: 21%;
 transform: rotate(90deg);
-right: -328px;
-top: 55px;
-box-shadow: 20px -17px 3px 4px #ce5d56
+box-shadow: 20px -17px 3px 4px #ce5d56;
 }
 .gor{
-position: relative;
-left: 47px;
-top: -80px;
+position: absolute;
+left: 48.3%;
+top: 40%;
 }
         
-.chev1 {
+.left {
+position: absolute;
+transform: rotate(180deg);
+left: 18.3%;
+top: 53.5%;
+cursor: pointer;
+}
+.newleft
+{
 position: relative;
 transform: rotate(180deg);
-right: 946px;
-top: -152px;
-        }
-.chev2{
-position: relative;
-left: -1px;
-top: -152px;
-    }
-a {
+right: 170px;
+top: -200px;
 cursor: pointer;
+}
+
+.right{
+position: absolute;
+top: 50%;
+left: 80.5%;
+cursor: pointer;
+}
+.newright
+{
+position: relative;
+
+left: 780px;
+top: -200px;
+cursor: pointer;
+}
+.iphone3{position: relative;
+left: 130px;
+}
+.iphone3_left{
+    position: relative;
+    opacity: 0.2;
+    width: 200px;
+    height: 400px;
+    left: -300px;
+    top: -70px;
+}
+.iphone3_right{
+    position: relative;
+    opacity: 0.2;
+    width: 200px;
+    height: 400px;
+    right: 112px;
+    top: -70px;
 }
 
 .line2{
