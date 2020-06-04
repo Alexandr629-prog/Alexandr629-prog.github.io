@@ -110,7 +110,7 @@ if(event.target.classList.contains('all')){
   event.target.classList.add('selected2');    
 }
 function anim()
-{
+{//did commit
   document.querySelectorAll("body > div.Slider").forEach(Slider=>Slider.classList.add('to_left'))
   document.querySelectorAll("body > div:nth-child(2) > img.iphone1").forEach(iphone1=>iphone1.classList.add('to_left'))
   document.querySelectorAll("body > div.Slider > img.gor").forEach(gor=>gor.classList.add('to_left'))
