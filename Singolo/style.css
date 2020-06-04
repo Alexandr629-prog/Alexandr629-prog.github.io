@@ -79,10 +79,16 @@ body{
 .star{color: #eb6a63;}
 
 .header{
+    -webkit-margin-before-collapse: discard;
+    position: absolute;
     background-color:#2d303a;
     height: 95px;
+    width: 1020px;
+    top: 0px;
+    padding: 0;
 }
 .header_fixed{
+    -webkit-margin-before-collapse: discard;
     position: fixed;
     top: 0px;
     left: 230px;
@@ -152,7 +158,7 @@ li span.option2{
 -webkit-margin-before-collapse: discard;
 background-color: #f06c64;
 width: 1020px;
-height: 599px;
+height: 695px
 }
 .Newslider{
 -webkit-margin-before-collapse: discard;
@@ -176,7 +182,7 @@ height: 599px;
     z-index: 1;
 }
 .passiv{
-    display: none;
+ display: none;
 }
 .iphone1{
 position: absolute;
@@ -256,9 +262,8 @@ left: 130px;
 .line2{
 color: #ea676b;
 background-color: #ea676b;
-padding-top: -6px;
 border: none;
-margin-top: 133px;
+margin-top: 688px;
 height: 4px;
 }
 

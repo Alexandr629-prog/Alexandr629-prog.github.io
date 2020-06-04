@@ -112,8 +112,8 @@ if(event.target.classList.contains('all')){
 function anim()
 {
   document.querySelectorAll("body > div.Slider").forEach(Slider=>Slider.classList.add('to_left'))
-  //document.querySelectorAll("body > div:nth-child(2) > img.iphone1").forEach(iphone1=>iphone1.classList.add('to_left'))
-  //document.querySelectorAll("body > div.Slider > img.gor").forEach(gor=>gor.classList.add('to_left'))
+  document.querySelectorAll("body > div:nth-child(2) > img.iphone1").forEach(iphone1=>iphone1.classList.add('to_left'))
+  document.querySelectorAll("body > div.Slider > img.gor").forEach(gor=>gor.classList.add('to_left'))
   //document.querySelectorAll("body > div.Slider > img.iphone2").forEach(iphone2=>iphone2.classList.add('to_left'))
   //document.querySelectorAll("body > div.Slider > img.vert").forEach(vert=>vert.classList.add('to_left'))
 
@@ -123,9 +123,9 @@ function anim()
   //document.querySelectorAll("body > div.Newslider > img.gor").forEach(gor=>gor.classList.add('passiv'))
   //document.querySelectorAll("body > div.Newslider > img.left").forEach(left=>left.classList.add('newleft'))
   //document.querySelectorAll("body > div.Newslider > img.right").forEach(right=>right.classList.add('newright'))
-  document.querySelectorAll("body > div.Slider > img.iphone3.passiv").forEach(passiv=>passiv.classList.remove('passiv'))
-  document.querySelectorAll("body > div.Slider > img.iphone3_left.passiv").forEach(passiv=>passiv.classList.remove('passiv'))
-  document.querySelectorAll("body > div.Slider > img.iphone3_right.passiv").forEach(passiv=>passiv.classList.remove('passiv'))
+  //document.querySelectorAll("body > div.Slider > img.iphone3.passiv").forEach(passiv=>passiv.classList.remove('passiv'))
+  //document.querySelectorAll("body > div.Slider > img.iphone3_left.passiv").forEach(passiv=>passiv.classList.remove('passiv'))
+  //document.querySelectorAll("body > div.Slider > img.iphone3_right.passiv").forEach(passiv=>passiv.classList.remove('passiv'))
 }
 function passiv()
 {
