@@ -1,0 +1,177 @@
+{
+  "menu": [
+    {
+      "img": "img/tabs/vegy.jpg",
+      "altimg": "vegy",
+      "title": "Меню 'Фитнес'",
+      "descr": "Меню 'Фитнес' - это новый подход к приготовлению блюд: больше свежих овощей и фруктов. Продукт активных и здоровых людей. Это абсолютно новый продукт с оптимальной ценой и высоким качеством!",
+      "price": 9
+    },
+    {
+      "img": "img/tabs/post.jpg",
+      "altimg": "post",
+      "title": "Меню 'Постное'",
+      "descr": "Меню 'Постное' - это тщательный подбор ингредиентов: полное отсутствие продуктов животного происхождения, молоко из миндаля, овса, кокоса или гречки, правильное количество белков за счет тофу и импортных вегетарианских стейков.",
+      "price": 14
+    },
+    {
+      "img": "img/tabs/elite.jpg",
+      "altimg": "elite",
+      "title": "Меню 'Премиум'",
+      "descr": "В меню 'Премиум' мы используем не только красивый дизайн упаковки, но и качественное исполнение блюд. Красная рыба, морепродукты, фрукты - ресторанное меню без похода в ресторан!",
+      "price": 21
+    }
+  ],
+  "requests": [
+    {
+      "name": "Aliaksandr",
+      "phone": "+375295540590",
+      "id": 1
+    },
+    {
+      "name": "Aliaksandr",
+      "phone": "+375295540590",
+      "id": 2
+    },
+    {
+      "name": "Aliaksand",
+      "phone": "fdsds",
+      "id": 3
+    },
+    {
+      "hiiii": "dfdsfsd",
+      "phone": "sfds",
+      "id": 4
+    },
+    {
+      "name": "Aliaksandr",
+      "phone": "+375295540590",
+      "id": 5
+    },
+    {
+      "name": "alex",
+      "phone": "dc",
+      "id": 6
+    },
+    {
+      "name": "Aliaksandr",
+      "phone": "fdsds",
+      "id": 7
+    },
+    {
+      "name": "Aliaksandr",
+      "phone": "zdfdz",
+      "id": 8
+    },
+    {
+      "name": "Alex",
+      "phone": "+375295540590",
+      "id": 9
+    },
+    {
+      "name": "Aliaksandr",
+      "phone": "+375295540590",
+      "id": 10
+    },
+    {
+      "name": "Aliaksandr",
+      "phone": "zdfdz",
+      "id": 11
+    },
+    {
+      "name": "Aliaksandr",
+      "phone": "+375295540590",
+      "id": 12
+    },
+    {
+      "name": "masha",
+      "phone": "+375295540590",
+      "id": 13
+    },
+    {
+      "name": "sadas",
+      "phone": "sadas",
+      "id": 14
+    },
+    {
+      "name": "rwe",
+      "phone": "rw",
+      "id": 15
+    },
+    {
+      "name": "Aliaksandr",
+      "phone": "+375295540590",
+      "id": 16
+    },
+    {
+      "name": "Aliaksandr",
+      "phone": "+375295540590",
+      "id": 17
+    },
+    {
+      "name": "t",
+      "phone": "t",
+      "id": 18
+    },
+    {
+      "name": "Alex",
+      "phone": "+375295540590",
+      "id": 19
+    },
+    {
+      "name": "Aliaksandr",
+      "phone": "+375295540590",
+      "id": 20
+    },
+    {
+      "name": "Aliaksandr",
+      "phone": "zdfdz",
+      "id": 21
+    },
+    {
+      "name": "Aliaksandr",
+      "phone": "+375295540590",
+      "id": 22
+    },
+    {
+      "name": "lalala",
+      "phone": "lal",
+      "id": 23
+    },
+    {
+      "name": "lalala",
+      "phone": "lalalllalll",
+      "id": 24
+    },
+    {
+      "name": "alex",
+      "phone": "+375295540590",
+      "id": 25
+    },
+    {
+      "name": "Alex",
+      "phone": "+375295540590",
+      "id": 26
+    },
+    {
+      "name": "Aliaksandr",
+      "phone": "zdfdz",
+      "id": 27
+    },
+    {
+      "name": "nadya",
+      "phone": "5343252353",
+      "id": 28
+    },
+    {
+      "name": "Aliaksandr",
+      "phone": "+375295540590",
+      "id": 29
+    },
+    {
+      "name": "Aliaksandr",
+      "phone": "+375295540590",
+      "id": 30
+    }
+  ]
+}
